@@ -17,7 +17,7 @@ The user can use `scriptme` to better understand the packages used in a script a
 - `writeme()`: Prepare a markdown file describing the script dependacies and their popularity. This output is designed to be included in a user's supporting ReadMe file.
 
 
-### Python/R ecosystems
+### Python/R Ecosystems
 
 - **Python**: We were not able to find any Python software packages that address the same functionality as we intend to with ```scriptme```, however, a package called [meta_func](https://pypi.org/project/meta_func/) does keep track of metadata about function use in a given script you examine.
 
