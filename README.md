@@ -19,6 +19,6 @@ The user can use `scriptme` to better understand the packages used in a script a
 
 ### Python/R ecosystems
 
-- **Python**: We haven't found any Python software package that have the same functionality.
+- **Python**: We haven't found any Python software packages that address the same functionality as we intend to, however, a package [meta_func](https://pypi.org/project/meta_func/) does keep track of metadata about function use in scripts it examines. 
 
 - **R**: We haven't found any R software package that have the same functionality. In R, the [tidyverse/stringr](https://stringr.tidyverse.org/index.html) has similar functionality on our purpose of text-scrapping.
