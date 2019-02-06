@@ -21,4 +21,4 @@ The user can use `scriptme` to better understand the packages used in a script a
 
 - **Python**: We were not able to find any Python software packages that address the same functionality as we intend to with ```scriptme```, however, a package called [meta_func](https://pypi.org/project/meta_func/) does keep track of metadata about function use in a given script you examine.
 
-- **R**: We haven't found any R software packages that offer the same functionality either. In R, the [tidyverse/stringr](https://stringr.tidyverse.org/index.html) package has a similar use case for text scraping,
+- **R**: We haven't found any R software packages that offer the same functionality either. In R, the [tidyverse/stringr](https://stringr.tidyverse.org/index.html) package has a similar use case for text scraping, but this is not deployed in a broader sense to convey the details of a script.
