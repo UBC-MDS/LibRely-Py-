@@ -1,5 +1,5 @@
 # scriptme
-A package for assessing script qualities by finding library/module dependencies and preparing them for documentation.
+A package for assessing script qualities by finding library/module dependencies and functions, and preparing them for documentation.
 
 Contributors: **Aaron Quinton**, **Zixin Zhang**, & **Alex Hope**
 
