@@ -1,7 +1,7 @@
 # scriptme
 
 ### Collaborators
-| Name | GitHub handle |
+| Name | GitHub Handle |
 | ---- | ------ |
 | Alex Hope | [@ehhope ]( https://github.com/ehhope) |
 | Zixin Zhang     | [@zxzzhangg](https://github.com/zxzzhangg) |
