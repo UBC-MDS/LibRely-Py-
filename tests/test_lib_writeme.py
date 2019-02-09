@@ -12,23 +12,19 @@ import pytest
 exp_input1_arg1 = "test_file/input1.py"
 exp_input1_arg2 = "test_file/result/dependency.md"
 
-# expected output: a list of dependencies
+# expected output: a prewrite expected output
 exp_output1 = "test_file/exp_dependency.md"
 
-
 def test_lib_writeme():
-    lib_writeme("test_file/input1.py", "test_file/result/dependency.md")
-    output = "test_file/exp_dependency.md"
-    test_output = lib_writeme("test_file/input1.py", "test_file/result/dependency.md")
-    assert np.array_equal(output, test_output), "The lib_search function does not work properly"
-
-def test_output_empty():
     """
     This function check the whether the output is correct.
     """
-    output = "test_file/exp_dependency.md"
-    test_output = lib_writeme("test_file/input1.py", "test_file/result/dependency.md")
-    assert np.array_equal(lib_writeme("test_file/input2.py"), []), "There are no dependencies."
+    lib_writeme("test_file/input1.py", "test_file/result/dependency.md")
+    exp_output = open("test_file/exp_dependency.md")
+    exp_output_txt = exp_output.readlines()
+    test_output = open("test_file/result/dependency.md")
+    test_output_txt = test_output.readlines()
+    assert np.array_equal(exp_output_txt, test_output_txt), "The lib_search function does not work properly"
 
 def test_input_path():
     """
@@ -39,7 +35,7 @@ def test_input_path():
     with pytest.raises(FileNotFoundError):
         lib_writeme("test_file/input1.pdf","test_file/result/dependency.md")
     with pytest.raises(FileNotFoundError):
-        llib_writeme("123/input1.py", "test_file/result/dependency.md")
+        lib_writeme("123/input1.py", "test_file/result/dependency.md")
 
 def test_input_arg():
     """
