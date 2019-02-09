@@ -22,4 +22,4 @@ In order for a pull request to be approved, two of three administrators must acc
 - Aaron Quinton ([aaronquinton](https://github.com/aaronquinton))
 - Alex Hope ([ehhope](https://github.com/ehhope))
 
-These individuals are the contributing members to the LibRely package, however, thoughtful additions to the package are welcome and greatly appreciated as we strive to continue building a useful product for script analysis.
+These individuals are the contributing members to the LibRely package, however, thoughtful additions are welcome and greatly appreciated as we strive to continue building a useful product for script analysis.
