@@ -1,4 +1,4 @@
-# LibRely
+# LibRely (Python)
 
 ### Collaborators
 | Name | GitHub handle |
@@ -9,7 +9,7 @@
 
 
 ## Overview
-The `scriptme` package is designed to provide a meta analysis on R or Python scripts to aid in the workflow for a data science or software development project. The functionalities in this package interpret scripts to compile library/module dependancies and prepare summary documentation.
+The `scriptme` package is designed to provide a meta analysis on Python scripts to aid in the workflow for a data science or software development project. The functionalities in this package interpret scripts to compile library/module dependancies and prepare summary documentation.
 
 The user can use `scriptme` to better understand the packages used in a script authored by someone else. Alternatively a user can take advantage of the functionalities when preparing the ReadMe documentation in their project. The following functions are included in the `scriptme` package.
 - `findme()`: Find and list the libraries/modules used in the script passed as an argument
