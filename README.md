@@ -9,7 +9,7 @@
 
 
 ## Overview
-The `LibRely` package is designed to provide a meta analysis on Python scripts to aid in the workflow for a data science or software development project. The functionalities in this package interpret scripts to compile library/module dependancies and prepare summary documentation.
+The `LibRely` package is designed to provide a meta analysis of Python scripts to aid in the workflow for a data science or software development project. The functionalities in this package interpret scripts to compile library/module dependancies and prepare summary documentation.
 
 The user can use `LibRely` to better understand the packages used in a script authored by someone else. Alternatively a user can take advantage of the functionalities when preparing the ReadMe documentation in their project. The following functions are included in the `LibRely` package.
 - `lib_search()`: Find and list the libraries/modules used in the script passed as an argument
