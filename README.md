@@ -1,4 +1,4 @@
-# scriptme
+# LibRely
 
 ### Collaborators
 | Name | GitHub handle |
