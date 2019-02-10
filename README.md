@@ -7,7 +7,11 @@
 | Zixin Zhang     | [@zxzzhangg](https://github.com/zxzzhangg) |
 | Aaron Quinton     | [@aaronquinton](https://github.com/aaronquinton ) |
 
+
+
 **Milestone 1 Release**: https://github.com/UBC-MDS/LibRely-Py-/releases/tag/V1.0
+
+
 
 ## Overview
 The `LibRely` package is designed to provide a meta analysis of Python scripts to aid in the workflow for a data science or software development project. The functionalities in this package interpret scripts to compile library/module dependancies and prepare summary documentation.
