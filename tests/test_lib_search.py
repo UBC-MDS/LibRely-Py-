@@ -1,6 +1,6 @@
 # Feb 8th, 2019
 # Zixin Zhang
-# This script tests the function for findme.py
+# This script tests the function for lib_search.py
 #
 # input: a path leads to the .py script
 # output: a list that contains all the dependencies
