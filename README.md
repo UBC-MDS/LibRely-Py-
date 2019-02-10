@@ -8,6 +8,7 @@
 | Aaron Quinton     | [@aaronquinton](https://github.com/aaronquinton ) |
 
 
+### Releases
 
 **Milestone 1 Release**: https://github.com/UBC-MDS/LibRely-Py-/releases/tag/V1.0
 
