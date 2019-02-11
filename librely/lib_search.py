@@ -35,5 +35,8 @@ def lib_search(input_path):
         if thisline[0] == 'import': ### If the line starts with 'import'
             edits = thisline[1].replace('\n', '') #### Grab the word after it
             dependency.append(edits) #### Append the word into dependency list
+        elif thisline[1] == 'from':
+            edits = thisline[1] ##### To Deal with packages where someone imports using 'from'
+            dependency.append(edits) ### append the word after 'from' to dependency list
 
     return dependency
