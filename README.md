@@ -15,12 +15,12 @@ Milestone 1 Release: https://github.com/UBC-MDS/LibRely-Py-/releases/tag/V1.0
 
 
 ## Overview
-The `LibRely` package is designed to provide a meta analysis of Python scripts to aid in the workflow for a data science or software development project. The functionalities in this package interpret scripts to compile library/module dependancies and prepare summary documentation.
+The `LibRely` package is designed to provide a meta analysis of Python scripts to aid in the workflow for a data science or software development project. The functionalities in this package interpret scripts to compile library/module dependancies, document specific functions imported in the script and measure the length of the script by number of lines and characters.
 
 The user can use `LibRely` to better understand the packages used in a script authored by someone else. Alternatively a user can take advantage of the functionalities when preparing the ReadMe documentation in their project. The following functions are included in the `LibRely` package.
-- `lib_search()`: Find and list the libraries/modules used in the script passed as an argument
-- `lib_count()`: Count the functions used and detail their corresponding libraries/packages
-- `lib_writeme()`: Prepare a markdown file describing the script dependacies and their popularity. This output is designed to be included in a user's supporting ReadMe file.
+- `lib_search()`: Find and list the libraries/modules used in the script passed as an argument.
+- `lib_count()`: Count the modules and functions that are specifically imported into a script.
+- `lib_lines()`: Count the number of lines and characters in the script.
 
 
 ### Python Ecosystems
