@@ -1,11 +1,6 @@
 import pandas as pd
 import numpy as np
 
-
-
-library(pandas)
-library(numpy)
-
 def lib_count(input_path):
 
     """
