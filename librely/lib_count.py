@@ -37,9 +37,3 @@ def lib_count(filepath):
 
 
     return dependency, function_list
-
-import argparse
-parser = argparse.ArgumentParser()
-parser.add_argument("str", help="display the dependencies and function lists", type=str)
-args = parser.parse_args()
-print(lib_count(args.str))
