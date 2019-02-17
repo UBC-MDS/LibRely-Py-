@@ -11,7 +11,8 @@ from librely.lib_count import lib_count
 input1 = "./librely/tests/test.py"
 
 # expected output: a list of dependencies
-exp_output1 = ['numpy', 'sklearn.model_selection', 'matplotlib', 'pandas', 'sklearn', 'sklearn.tree']
+exp_output1 = (['numpy', 'sklearn.model_selection', 'matplotlib', 'pandas', 'sklearn', 'sklearn.tree'],
+                ['train_test_split', 'DecisionTreeClassifier'])
 
 
 def test_lib_count():
