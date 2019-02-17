@@ -8,7 +8,9 @@
 | Aaron Quinton     | [@aaronquinton](https://github.com/aaronquinton ) |
 
 
-### Install Instructions
+### Install LibRely
+
+#### Instructions:
 
 To install ```LibRely``` on your own device using ```pip```, type this in your terminal:
 
