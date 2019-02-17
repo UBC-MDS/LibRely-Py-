@@ -26,7 +26,7 @@ The user can use `LibRely` to better understand the packages used in a script au
 `lib_count()`
 
 - Input parameter(string): a file path to the script
-- Output parameter(dataframe): A tuple of two lists, 1) dependencies 2) functions
+- Output parameter(tuple): A tuple of two lists, 1) dependencies 2) functions
 - Function purpose: It counts the functions used in the script and detail the libraries/packages contained
 
 `lib_lines()`
