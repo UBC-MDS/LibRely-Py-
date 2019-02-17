@@ -12,7 +12,7 @@
 
 To install ```LibRely``` on your own device using ```pip```, type this in your terminal:
 
-```pip install git+https://github.com/UBC-MDS/LibRely-Py-.git```
+- ```pip install git+https://github.com/UBC-MDS/LibRely-Py-.git```
 
 
 
