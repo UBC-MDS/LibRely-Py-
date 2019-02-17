@@ -6,8 +6,7 @@
 import pandas as pd
 import numpy as np
 
-
-def lib_search(input_path):
+def lib_search(filepath):
 
     """
     This function takes in a Python script (.py) and returns a dataframe
