@@ -10,17 +10,15 @@ def lib_search(filepath):
 
     """
     This function takes in a Python script (.py) and returns a dataframe
-    containing the libraries and functions within the script as well as a
-    use-count of the functions
+    containing the libraries within the script
 
     Parameters
     ----------
-    input_path(string): The path to the input .py script
+    filepath(string): The path to the input .py script
 
     Return
     ----------
-    depen_func_dataframe(DataFrame): A DataFrame that stores all the dependencies, functions
-    and function counts
+    dependency(list): A list that stores all the dependencies
     """
 
     dependency=[] #### Set an empty list containing dependencies
