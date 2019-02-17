@@ -29,7 +29,7 @@ The user can use `LibRely` to better understand the packages used in a script au
 - Output parameter(dataframe): A tuple of two lists, 1) dependencies 2) functions
 - Function purpose: It counts the functions used in the script and detail the libraries/packages contained
 
- `lib_lines()`
+`lib_lines()`
 
  - Input parameter(string): a file path to the script
  - Output parameter(print statements): a list of two numbers, one for # of lines and one for # of characters
@@ -40,5 +40,5 @@ The user can use `LibRely` to better understand the packages used in a script au
 
 - **Python**: We were not able to find any Python software packages that address the same functionality as we intend to with ```LibRely```, however, a package called [meta_func](https://pypi.org/project/meta_func/) does keep track of metadata about function use in a given script you examine. 
 
-Due to the lack of available libraries we feel LibRely has something unique to offer the Python ecosystem in addition to the user. It allows for quick access to potentially interesting information about scripts. If someone wants to quickly understand a pipeline, they can simply import LibRely and use it's distinct functions to learn about what functions may be contained in the script and what dependencies were called. In analysis pipelines with multiple scripts, this is valuable information. For these reasons, we feel LibRely is an interesting and useful package in the Python environment.
-
+#### Package Fit 
+Due to the lack of python packages available for analyzing script qualities, we feel LibRely has something unique to offer the Python ecosystem. It grants quick access to relevant information about the contents of scripts and offers insight into the actions being performed. If anyone wants to get a sense of a longer pipeline, they can simply import LibRely and use it's distinct functions on different scripts that may be linked together in a pipeline. For these reasons, we feel LibRely is an interesting and useful package for the user and a meaningful addition to the Python ecosystem.
