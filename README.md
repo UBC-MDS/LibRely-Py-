@@ -8,6 +8,15 @@
 | Aaron Quinton     | [@aaronquinton](https://github.com/aaronquinton ) |
 
 
+### Install Instructions
+
+To install ```LibRely``` on your own device using ```pip```, type this in your terminal:
+
+```pip install git+https://github.com/UBC-MDS/LibRely-Py-.git```
+
+
+
+
 ### Releases
 
 [Milestone 1 Release](https://github.com/UBC-MDS/LibRely-Py-/releases/tag/V1.0)
