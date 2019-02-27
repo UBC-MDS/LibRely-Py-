@@ -48,11 +48,11 @@ The user can use `LibRely` to better understand the packages used in a script au
 
 ### Usage
 
-- To use the ```LibRely``` package in python, you can integrate the entire package by writing:
+- To use the ```LibRely``` package in python, you can integrate the entire package by writing into your editor:
 
 ``` import librely```
 
-- If you're interested in only using a specific function within the ```LibRely``` package, you can call it by writing:
+- If you are interested in only using a specific function within the ```LibRely``` package such as ```lib_count``` (to return the dependencies and functions in a script) you can call it specifically by writing:
 
 ``` from librely.lib_count import lib_count```
 
