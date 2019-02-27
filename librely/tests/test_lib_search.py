@@ -8,7 +8,7 @@ import pytest
 from librely.lib_search import lib_search
 
 # input: a file path to a test script that uses a few functions and imports common packages
-input1 = "./librely/tests/test.py"
+input1 = "test.py"
 
 # expected output: a list of dependencies
 exp_output1 = ['numpy', 'sklearn.model_selection', 'matplotlib', 'pandas', 'sklearn', 'sklearn.tree']

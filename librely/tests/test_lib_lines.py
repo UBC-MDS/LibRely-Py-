@@ -8,8 +8,9 @@ import pytest
 from librely.lib_lines import lib_lines
 
 # input: a file path to a test script that uses a few functions and imports common packages
-input1 = "./librely/tests/test.py"
-
+input1 = "test.py"
+input1_pdf = "test.pdf"
+input1_txt = "test.txt"
 # expected output: a list of dependencies
 exp_output1 = [17,173]
 
@@ -19,9 +20,9 @@ def test_input_path():
     This function is to check whether the input path is correct.
     """
     with pytest.raises(FileNotFoundError):
-        lib_lines("./librely/tests/input1.txt")
+        lib_lines(input1_txt)
     with pytest.raises(FileNotFoundError):
-        lib_lines("test_file/input1.pdf")
+        lib_lines(input1_pdf)
 
 def test_input_arg():
     """
