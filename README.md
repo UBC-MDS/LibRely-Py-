@@ -46,6 +46,15 @@ The user can use `LibRely` to better understand the packages used in a script au
  - Output parameter(print statements): a list of two numbers, one for # of lines and one for # of characters
  - Function purpose: It counts the number of lines and characters of the script
 
+### Usage
+
+- To use the ```LibRely``` package in python, you can integrate the entire package by writing:
+
+``` import librely```
+
+- If you're interested in only using a specific function within the ```LibRely``` package, you can call it by writing:
+
+``` from librely.lib_count import lib_count```
 
 ### Python Ecosystem
 
