@@ -41,3 +41,9 @@ def test_input_string():
         lib_lines([1,2,3])
     with pytest.raises(TypeError):
         lib_lines((2,3))
+
+def test_lib_count():
+    """
+    This function checks that the output of the function is equal to the expected output
+    """
+    assert lib_lines(input1) == exp_output1, "The lib_count function does not work properly"
