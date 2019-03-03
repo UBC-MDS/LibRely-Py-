@@ -8,12 +8,13 @@ import pytest
 from librely.lib_lines import lib_lines
 
 # input: a file path to a test script that uses a few functions and imports common packages
-input1 = "test.py"
-input1_pdf = "test.pdf"
-input1_txt = "test.txt"
+input1 = "test.py" #### test script
+input1_pdf = "test.pdf" #### pdf file
+input1_txt = "test.txt" #### txt file
+input2 = "test2.py" #### empty test script
 # expected output: a list of dependencies
 exp_output1 = [17,173]
-
+exp_output2 = []
 
 def test_input_path():
     """
