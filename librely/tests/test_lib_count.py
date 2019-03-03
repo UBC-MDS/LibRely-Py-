@@ -21,9 +21,9 @@ def test_input_path():
     This function is to check whether the input path is correct.
     """
     with pytest.raises(FileNotFoundError):
-        lib_lines(input1_txt)
+        lib_count(input1_txt)
     with pytest.raises(FileNotFoundError):
-        lib_lines(input1_pdf)
+        lib_count(input1_pdf)
 
 
 def test_input_string():
@@ -31,11 +31,11 @@ def test_input_string():
     This function is to check whether the input is a string.
     """
     with pytest.raises(OSError):
-        lib_lines(123)
+        lib_count(123)
     with pytest.raises(TypeError):
-        lib_lines([1,2,3])
+        lib_count([1,2,3])
     with pytest.raises(TypeError):
-        lib_lines((2,3))
+        lib_count((2,3))
 
 def test_lib_count():
     """
