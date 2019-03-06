@@ -1,7 +1,5 @@
 # LibRely (Python)
 
-[![Build Status](https://travis-ci.com/ehhope/LibRely-Py-.svg?branch=master)](https://travis-ci.com/ehhope/LibRely-Py-)
-
 ### Collaborators
 | Name | GitHub Handle |
 | ---- | ------ |
