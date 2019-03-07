@@ -6,4 +6,6 @@ install:
   - pip install -U pytest
   - pip install numpy
   - pip install pandas
+  - pip install matplotlib
+  - pip install -U scikit-learn
 script: pytest
