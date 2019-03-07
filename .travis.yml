@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
 install:
-  - pip install git+https://github.com/UBC-MDS/CleanPy.git
+  - pip install git+https://github.com/UBC-MDS/LibRely-Py-.git
   - pip install -U pytest
   - pip install numpy
   - pip install pandas
