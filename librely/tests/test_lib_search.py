@@ -15,15 +15,15 @@ input1_txt = "test.txt"
 # expected output: a list of dependencies
 exp_output1 = ['numpy', 'sklearn.model_selection', 'matplotlib', 'pandas', 'sklearn', 'sklearn.tree']
 
-
-def test_input_path():
-    """
-    This function is to check whether the input path is correct.
-    """
-    with pytest.raises(FileNotFoundError):
-        lib_search(input1_txt)
-    with pytest.raises(FileNotFoundError):
-        lib_search(input1_pdf)
+#Handled file not found errors with exception handling
+#def test_input_path():
+#    """
+#    This function is to check whether the input path is correct.
+#    """
+#    with pytest.raises(FileNotFoundError):
+#        lib_search(input1_txt)
+#    with pytest.raises(FileNotFoundError):
+#        lib_search(input1_pdf)
 
 def test_input_arg():
     """

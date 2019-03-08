@@ -14,15 +14,15 @@ input1_txt = "test.txt"
 # expected output: a list of dependencies
 exp_output1 = [17,173]
 
-
-def test_input_path():
-    """
-    This function is to check whether the input path is correct.
-    """
-    with pytest.raises(FileNotFoundError):
-        lib_lines(input1_txt)
-    with pytest.raises(FileNotFoundError):
-        lib_lines(input1_pdf)
+#Handled file not found errors with exception handling
+#def test_input_path():
+#    """
+#    This function is to check whether the input path is correct.
+#    """
+#    with pytest.raises(FileNotFoundError):
+#        lib_lines(input1_txt)
+#    with pytest.raises(FileNotFoundError):
+#        lib_lines(input1_pdf)
 
 def test_input_arg():
     """
