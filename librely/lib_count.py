@@ -19,26 +19,30 @@ def lib_count(filepath):
     dependency=[] #### Set an empty list containing dependencies
     function_list=[]
 
-    in_file=open(filepath,"r") ### Open File
-    lines = in_file.readlines() ### Read Lines of File
+    try:
+        in_file=open(filepath,"r") ### Open File
+        lines = in_file.readlines() ### Read Lines of File
 
-    for line in lines: ### For Loop for Each Line
-        thisline=line.split(" ") ### Split Every Word in the Line
+        for line in lines: ### For Loop for Each Line
+            thisline=line.split(" ") ### Split Every Word in the Line
 
-        if thisline[0] == 'import': ### If the line starts with 'import'
-            edits = thisline[1].replace('\n', '') #### Grab the word after it
-            dependency.append(edits) #### Append the word into dependency list
+            if thisline[0] == 'import': ### If the line starts with 'import'
+                edits = thisline[1].replace('\n', '') #### Grab the word after it
+                dependency.append(edits) #### Append the word into dependency list
 
-        elif thisline[0] == 'from':
-            edits = thisline[1] ##### To Deal with packages where someone imports using 'from'
-            dependency.append(edits) ### append the word after 'from' to dependency list
+            elif thisline[0] == 'from':
+                edits = thisline[1] ##### To Deal with packages where someone imports using 'from'
+                dependency.append(edits) ### append the word after 'from' to dependency list
 
-            ### Second core aspect, this grabs the functions imported at the top of the script
-            func_top = thisline[3].replace('\n','') ### Grab any functions from top of script
-            function_list.append(func_top) ### Grab functions at top of script if directly imported
+                ### Second core aspect, this grabs the functions imported at the top of the script
+                func_top = thisline[3].replace('\n','') ### Grab any functions from top of script
+                function_list.append(func_top) ### Grab functions at top of script if directly imported
 
 
-    return dependency, function_list
+        return dependency, function_list
+
+    except FileNotFoundError:
+        print("This file was not found")
 
 #import argparse
 #parser = argparse.ArgumentParser()

@@ -16,14 +16,15 @@ input1_txt = "test.txt"
 exp_output1 = (['numpy', 'sklearn.model_selection', 'matplotlib', 'pandas', 'sklearn', 'sklearn.tree'],
                 ['train_test_split', 'DecisionTreeClassifier'])
 
-def test_input_path():
-    """
-    This function is to check whether the input path is correct.
-    """
-    with pytest.raises(FileNotFoundError):
-        lib_count(input1_txt)
-    with pytest.raises(FileNotFoundError):
-        lib_count(input1_pdf)
+#Handled file not found errors with exception handling
+#def test_input_path():
+#    """
+#    This function is to check whether the input path is correct.
+#    """
+#    with pytest.raises(FileNotFoundError):
+#        lib_count(input1_txt)
+#    with pytest.raises(FileNotFoundError):
+#        lib_count(input1_pdf)
 
 
 def test_input_string():
