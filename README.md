@@ -73,7 +73,7 @@ Here we will show you how to use ```Librely```'s function ```lib_search```, whic
 - Finally, let's extract and deliver the output list of modules from our "test.py" file:
 
 
-![](./doc/output.png)
+![](./doc/exp_output.png)
 
 
 
