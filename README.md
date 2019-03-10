@@ -14,6 +14,8 @@ _____
 [Milestone 1 Release](https://github.com/UBC-MDS/LibRely-Py-/releases/tag/V1.0)
 
 [Milestone 2 Release](https://github.com/UBC-MDS/LibRely-Py-/tree/2.0)
+
+[Final Project Release](https://github.com/UBC-MDS/LibRely-Py-/releases/tag/4.0)
 ___
 
 ### Overview
